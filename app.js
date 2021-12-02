@@ -179,7 +179,7 @@ promptUser()
     const pageHTML = generatePage(portfolioData);
     // const pageHTML = generatePage(mockData);
 
-    fs.writeFile('./index.html', pageHTML, err => {
+    fs.writeFile('./dist./index.html', pageHTML, err => {
       if (err) throw err;
 
       console.log('Portfolio Complete! Check out index.html to see the output!');
